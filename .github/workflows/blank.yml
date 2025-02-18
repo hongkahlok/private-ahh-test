@@ -42,4 +42,4 @@ jobs:
           echo and finally
           echo ${github.server_url//https:\/\//}
           echo and additionally
-          echo ${{github.server_url }//https:\/\//}
+          echo ${{{github.server_url }}//https:\/\//}
