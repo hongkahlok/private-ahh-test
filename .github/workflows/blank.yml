@@ -39,3 +39,9 @@ jobs:
           echo ${{ github.server_url }}
           echo and
           echo ${GITHUB_SERVER_URL//https:\/\//}
+          and finally
+          echo ${github.server_url//https:\/\//}
+          and additionally
+          echo ${{github.server_url }//https:\/\//}
+          and lol
+          echo ${{{github.server_url }}//https:\/\//}
